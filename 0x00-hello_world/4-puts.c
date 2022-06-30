@@ -1,8 +1,12 @@
 #include <stdio.h>
-/*this will print a new strand of strings*/
+
+/**
+ * main - entry point
+ *
+ * return: 0 after printing the function
+ */
 int main(void)
-{
-	puts("\"Programming is like building a multilingual puzzle");
+{puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
 

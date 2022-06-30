@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*this code will print a whole amount of string*/
+ /**
+  * main - Entry point
+  *
+  * Return: Always 0 (success)
+  */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");

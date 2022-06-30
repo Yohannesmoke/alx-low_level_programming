@@ -1,5 +1,8 @@
-#include<stdio.h>
- /* sizeof evaluates the size of a variable*/
+#include <stdio.h>
+ /**
+  *main - prints the size of various types
+  * return: 0 if exited properly, non-zero otherwise
+  */
 void main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));

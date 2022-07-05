@@ -16,5 +16,4 @@ _putchar('a');
 _putchar('r');
 _putchar('\n');
 return (0);
->>>>>>> 4568a3fbd51a1cc944123ae3bf574c67d0208c18
 }

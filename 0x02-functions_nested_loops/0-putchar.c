@@ -1,6 +1,4 @@
 #include "main.h"
-
-
 /**
 *main -> this will print a string
 *
@@ -17,5 +15,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
- Return (0);
+return (0);
 }

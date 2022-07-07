@@ -13,8 +13,9 @@ else
 {
 for (j = 0; i < j; j++)
 {
-_putchar('');
-_putchar('92');
+for (i = 0; i < j; i++)
+_putchar(' ');
+_putchar(92);
 _putchar('\n');
 }
 }

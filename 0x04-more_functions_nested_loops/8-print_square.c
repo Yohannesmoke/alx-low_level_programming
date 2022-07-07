@@ -4,14 +4,14 @@
 *@n: parameter
 *return:return 0 and 1
 */
-void print_square(int n)
+void print_square(int size)
 {
 int i, j;
-if (n <= 0)
+if (size <= 0)
 _putchar('\n');
 else
 {
-for (x = 0; x < n; i++)
+for (x = 0; x < size; i++)
 {
 for (j = 0; j < size; j++)
 {

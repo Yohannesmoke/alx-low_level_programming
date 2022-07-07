@@ -1,9 +1,23 @@
 #include "main.h"
 /**
-*more_numbers -> print number from 1 to 9
+*print_square -> print number from 1 to 9
+*@n: parameter
 *return:return 0 and 1
 */
-void more_numbers(void)
+void print_square(int n)
 {
 int i, j;
-
+if (n <= 0)
+_putchar('\n');
+else
+{
+for (x = 0; x < n; i++)
+{
+for (j = 0; j < size; j++)
+{
+_putchar(35);
+}
+_putchar('\n');
+}
+}
+}

@@ -1,35 +1,28 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
-* main-> will print fizz when it is 
-*3 divisible and buzz when 5 divisible
-*fizzbuzz when both
-*@n: parameter
-* Return: 0 and 1
-int main(void)
+* print_triangle - prints a triangle, followed by a new line
+* @size: size of the triangle
+*/
+void print_triangle(int size)
 {
-int n;
-for (n = 1; n <= 100; n++)
+if (size <= 0)
 {
-  if ((n % 3) == 0 && (n % 5) == 0)
-{
-printf("fizzbuzz");
-}
-else if ((n % 5) == 0)
-{
-printf("buzz");
-}
-else if ((n % 3) == 0)
-{
-printf("fizz");
+_putchar('\n');
 }
 else
-printf("%d ", n);
-if (n < 100)
 {
-printf(" ");
+int i, j;
+for (i = 1; i <= size; i++)
+{
+for (j = i; j < size; j++)
+{
+_putchar(' ');
+}
+for (j = 1; j <= i; j++)
+{
+_putchar('#');
+}
+_putchar('\n');
 }
 }
-return (0);
 }
-

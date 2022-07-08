@@ -15,7 +15,7 @@ while (i < n)
 while (j < i)
 {
 _putchar(' ');
-b++;
+j++;
 }
 i++;
 j = 0;

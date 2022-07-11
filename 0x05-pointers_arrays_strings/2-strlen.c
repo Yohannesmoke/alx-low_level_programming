@@ -6,8 +6,8 @@
 */
 int _strlen(char *s)
 {
-char str[100];
-for (s = 0; str[s] != '\0'; ++i)
+int i;
+for (i = 0; s[i] != '\0'; ++i)
 {
 _putchar('s');
 }

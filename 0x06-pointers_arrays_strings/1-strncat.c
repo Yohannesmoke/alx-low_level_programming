@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
 *_strncat->will concatinate string
 *if the n > j
@@ -22,5 +21,4 @@ dest[length] = src[j];
 }
 dest[length] = '\0';
 return (dest);
-}
 }

@@ -12,22 +12,19 @@
 */
 char *leet(char *s)
 {
-int count, leetCount;
-char leetLetters[] = "aAeEoOtTlL";
-char leetNums[] = "4433007711";
-count = 0;
-while (s[count] != '\0')
+int a = 0, b, l = 5;
+char tr[5] = {'A', 'E', 'O', 'T', 'L'};
+char trw[5] = {'4', '3', '0', '7', '1'};
+while (s[a])
 {
-leetcount = 0;
-while (leetcount < 10)
+b = 0;
+while (b < l)
 {
-if (leetLetters[leetCount] == s[Count])
-{
-s[Count] = leetNums[leetCount];
+if (s[a] == tr[b] || s[a] - 32 == tr[b])
+s[a] = trw[b];
+b++;
 }
-leetCount++;
-}
-Count++;
+a++;
 }
 return (s);
 }

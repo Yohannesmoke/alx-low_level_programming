@@ -12,7 +12,7 @@
 */
 char *leet(char *s)
 {
-int Count, leetCount;
+int count, leetCount;
 char leetLetters[] = "aAeEoOtTlL";
 char leetNums[] = "4433007711";
 count = 0;

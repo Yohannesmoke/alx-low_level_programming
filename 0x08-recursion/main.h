@@ -5,7 +5,7 @@
 
 void _puts_recursion(char *s);
 int _putchar(char c);
-nt wildcmp(char *s1, char *s2);
+int wildcmp(char *s1, char *s2);
 int is_palindrome(char *s);
 int is_prime_number(int n);
 int _sqrt_recursion(int n);

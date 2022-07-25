@@ -64,7 +64,7 @@ return (NULL);
 
 return (strArr);
 
-xif(str[wordCount] != ' ' && !letter)
+xif(str[wordCount] != ' ' && !letter);
 {
 strArr [counter] = first_word(str + counter);
 if (!strArr[counter])

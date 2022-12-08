@@ -1,0 +1,6 @@
+CC=gcc #compiler to be exicuted
+SRC=main.c school.c #.c files that will be called latter
+OBJ=main.o school.o
+NAME=school
+all:$(OBJ)
+	$(CC) $(SRC) -O $(NAME)

@@ -1,4 +1,4 @@
 CC=gcc #compile to be used
-SRC=main #excutables
+SRC=school #excutables
 all:
 	$(CC) main.c school.c -o $(SRC)

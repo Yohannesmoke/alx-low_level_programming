@@ -1,6 +1,6 @@
 CC=gcc #compiler to be exicuted
 SRC=main.c school.c
-OBJ=main.o school.o
+OBJ=$(SRC:.c=.o)
 NAME=school
 all:$(OBJ)
 	$(CC) $(OBJ) -O $(NAME)

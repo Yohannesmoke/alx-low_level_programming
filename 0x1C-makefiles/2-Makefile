@@ -1,6 +1,8 @@
 CC=gcc #compiler to be exicuted
-SRC=main.c school.c #.c files that will be called latter
+SRC=main.c school.c
 OBJ=main.o school.o
 NAME=school
 all:$(OBJ)
 	$(CC) $(SRC) -O $(NAME)
+clean:
+	rm *.o $(NAME)
